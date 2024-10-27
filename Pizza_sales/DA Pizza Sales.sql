@@ -21,7 +21,7 @@ FROM pizza_sales;
 
 -- Average Order value
 SELECT ROUND(SUM(total_price)/COUNT(DISTINCT order_id),2) AS avg_order_value
-FROM pizza_sales;
+FROM pizza_sales; 
 
 -- Total pizzas sold
 SELECT SUM(quantity) AS pizzas_sold
@@ -39,13 +39,13 @@ FROM pizza_sales;
 SELECT HOUR(order_time) AS order_hour, SUM(quantity) AS pizzas_sold
 FROM pizza_sales
 GROUP BY HOUR(order_time)
-ORDER BY HOUR(order_time);
+ORDER BY HOUR(order_time); 
 
 -- Weekly trend of total orders
-SELECT YEAR(order_date) AS order_year, WEEK(order_date) AS order_week, COUNT(DISTINCT order_id) AS total_orders
+SELECT YEAR(order_date) AS order_year, WEEKOFYEAR(order_date) AS order_week, COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
-GROUP BY YEAR(order_date), WEEK(order_date) 
-ORDER BY YEAR(order_date), WEEK(order_date);
+GROUP BY YEAR(order_date), WEEKOFYEAR(order_date) 
+ORDER BY YEAR(order_date), WEEKOFYEAR(order_date); 
 
 -- Percentage of sales by pizza category
 SELECT pizza_category, ROUND(SUM(total_price),2) AS total_sales,
@@ -102,4 +102,5 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY total_orders
 LIMIT 5;
+ 
  
