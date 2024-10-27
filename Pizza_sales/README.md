@@ -1,2 +1,5 @@
 # Portfolio-Projects
-Data Analysis using MySQL and Tableau on PIzza Sales dataset
+
+MySQL and Tableau:
+
+Data Analysis using MySQL queries and two interactive dashboards in Tableau on Pizza Sales dataset
