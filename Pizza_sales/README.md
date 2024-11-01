@@ -21,31 +21,31 @@ The Pizza_sales repository contains:
 
 ### 1. Home Page
    
-KPI Banner:
+* KPI Banner:
 ~ Total Revenue
 ~ Average Order value
 ~ Total Pizzas Sold
 ~ Tota Orders
 ~ Average Pizzas per order
 
-Sheets:
+  *Sheets*:
 ~ Hourly Trend for Pizzas sold
 ~ Weekly Trend of Pizzas sold
 ~ Percentage of Sales by Pizza category
 ~ Percentage of Sales by Pizza size
 ~ Total Pizzas sold & Orders by category
 
-Filters:
+* Filters:
 ~ Order date
 ~ Pizza Category
 
-Insights:
+* Insights:
 ~ Peak Hours 
 ~ Peak weeks
 
 ### 2. Best/Worst Sellers page
 
-Sheets:
+* Sheets:
 ~ Top 5 Pizzas by Revenue 
 ~ Top 5 Pizzas by Quantity
 ~ Top 5 Pizzas by Orders
@@ -53,11 +53,11 @@ Sheets:
 ~ Bottom 5 Pizzas by Quantity
 ~ Bottom 5 Pizzas by Orders
 
-Filters:
+* Filters:
 ~ Order date
 ~ Pizza Category
 
-Statistics:
+* Statistics:
 ~ Topmost pizza by Revenue
 ~ Topmost pizza by Quantity
 ~ Topmost pizza by Orders
