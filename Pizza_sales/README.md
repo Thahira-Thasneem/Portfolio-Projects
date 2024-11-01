@@ -28,7 +28,7 @@ The Pizza_sales repository contains:
 ~ Tota Orders
 ~ Average Pizzas per order
 
-  *Sheets*:
+* Sheets:
 ~ Hourly Trend for Pizzas sold
 ~ Weekly Trend of Pizzas sold
 ~ Percentage of Sales by Pizza category
