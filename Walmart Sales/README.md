@@ -2,6 +2,12 @@
 
 This project mainly focuses on the analysis of Walmart sales data to provide insights of Product Analysis, Sales Analysis and Customer Analysis. The project addresses main business questions using MYSQL queries.
 
+## Data
+
+The dataset was obtained from Kaggle 
+https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data
+for practice purpose
+
 ## Project Structure
 The Pizza_sales repository contains:
 
