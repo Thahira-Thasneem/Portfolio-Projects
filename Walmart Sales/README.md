@@ -4,9 +4,8 @@ This project mainly focuses on the analysis of Walmart sales data to provide ins
 
 ## Data
 
-The dataset was obtained from Kaggle 
-https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data
-for practice purpose
+The dataset was obtained from Kaggle and modified for practice purpose accordingly. Only the data of 3 branches Naypyitaw, Mandalay and Yangon are included for analysis.
+ 
 
 ## Project Structure
 The Pizza_sales repository contains:
